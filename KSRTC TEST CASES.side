@@ -1,0 +1,788 @@
+{
+  "id": "18c8ae09-b0da-453b-82ed-94d39edd8297",
+  "version": "2.0",
+  "name": "ksrtc",
+  "url": "https://www.ksrtc.in",
+  "tests": [{
+    "id": "a6290c46-dbf6-4455-9086-d8d1a468c01f",
+    "name": "test1",
+    "commands": [{
+      "id": "626610e3-1527-41e1-b64b-3c12bf354310",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksrtc.in/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13fe255e-bec3-4f78-aac5-e18c32c42a39",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9334ffa-2ca5-4ec1-b241-865c8ce1813f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,21.33333396911621)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feb8611e-ba65-4f65-9f7a-0b5654ba310f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ballari - Bengaluru",
+      "targets": [
+        ["linkText=Ballari - Bengaluru", "linkText"],
+        ["css=.active li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467468693065', 'Ballari', '1467467616730', 'Bengaluru');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ballari - Bengaluru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df297dcb-5158-46bd-bc57-6f88367d8ee8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=26",
+      "targets": [
+        ["linkText=26", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=(//a[contains(text(),'26')])[2]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cfa95ee-f1ec-4615-9636-6d61a79b99bb",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d01241-0f05-4d9f-ae64-2354eb55e0fb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=27",
+      "targets": [
+        ["linkText=27", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'27')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'27')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49bb94f2-a8d1-4ca7-871e-13f75c502a60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1af41ad3-33a7-4d30-8197-c3640942f61c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Recruitment",
+      "targets": [
+        ["linkText=Recruitment", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Recruitment')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/recruitment.html')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Recruitment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcc83dcb-089b-403c-97b0-ea17e15e1e17",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Recruitment",
+      "targets": [
+        ["linkText=Recruitment", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Recruitment')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/recruitment.html')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Recruitment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f2f3172e-4e22-4f0b-b243-97a51e0086bd",
+    "name": "test2",
+    "commands": [{
+      "id": "80db7cb0-0386-4789-be27-f0617329c704",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksrtc.in/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f68122e-e269-40c8-94a9-0764e74c87af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5bb7594-a5f8-457c-a846-7166a972169a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ballari - Bengaluru",
+      "targets": [
+        ["linkText=Ballari - Bengaluru", "linkText"],
+        ["css=.active li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467468693065', 'Ballari', '1467467616730', 'Bengaluru');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ballari - Bengaluru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "480ecfdf-d0db-4041-a1bf-680c56aaf538",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=27",
+      "targets": [
+        ["linkText=27", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'27')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[32]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'27')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7194d6c4-06b2-4264-9cbb-2f4a047432a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9521aa9-6e88-4879-964d-2bb132ebc73d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=29",
+      "targets": [
+        ["linkText=29", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'29')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[32]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'29')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56513541-1b1c-445d-818c-5d775805f1e0",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Ballari"
+    }, {
+      "id": "43f8c7e0-b21c-4c09-b90e-3eb76209111f",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": "Bengaluru"
+    }, {
+      "id": "7d8cdd2b-38e5-4118-bec6-b8787fea32d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f43e303-b43a-4a1c-9982-55d8ae4e08e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Package Tours",
+      "targets": [
+        ["linkText=Package Tours", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Package Tours')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oprs-web/pkg/tours.do')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Package Tours')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5c78677d-6024-4ea2-b8a2-94a60797d24f",
+    "name": "test3",
+    "commands": [{
+      "id": "f0c1a94c-112a-4ea2-af78-54f8c30c4089",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksrtc.in/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc462900-715c-4f78-abc1-cfc59c4f91a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "187e46b8-a5e7-437a-98a9-33fa820bab4e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,18)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "263084e0-ef9c-4f13-9284-6d1c1d37accd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bengaluru - Belagavi",
+      "targets": [
+        ["linkText=Bengaluru - Belagavi", "linkText"],
+        ["css=.active li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467467616730', 'Bengaluru', '1467468625366', 'Belagavi');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bengaluru - Belagavi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96094dd2-aae2-404e-8ada-a968dab33807",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d21c31b-5129-4a4d-8e5f-28a14f57368d",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtJourneyDate",
+      "targets": [
+        ["id=txtJourneyDate", "id"],
+        ["name=txtJourneyDate", "name"],
+        ["css=#txtJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc6b01ba-023e-41b4-ad40-56d720f7998e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=28",
+      "targets": [
+        ["linkText=28", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'28')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[33]", "xpath:href"],
+        ["xpath=//td[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'28')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9d78301-e19b-4817-b4f8-fe43748daa36",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53bc8f11-8ed2-4502-8ee4-68d4de7e5bc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > td:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[6]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[6]", "xpath:position"],
+        ["xpath=//td[contains(.,'29')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdc08458-4fff-40ed-b97a-892ded6a5beb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control-label",
+      "targets": [
+        ["css=.custom-control-label", "css:finder"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Single Lady')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e78cb81c-1383-4978-ad40-2e3450343c7e",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Bengaluru"
+    }, {
+      "id": "6f9a6ddf-aae2-4b8a-8784-60634f5c13d2",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": "Belagavi"
+    }, {
+      "id": "289e11ac-4418-4801-bd57-86faac1df16a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3f9604ef-1fee-4724-95ea-25c6e77f5ffe",
+    "name": "test4",
+    "commands": [{
+      "id": "a7d3e814-8e95-4536-aa35-1106d45e4ff1",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksrtc.in/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e35a17b-8cdf-4b6f-ba5c-31007e6ecec4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e86083c9-14ac-4f2c-8fe5-0439feb92c8b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a6cc554-9040-4900-a654-e36eaab8bcc9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bengaluru - Hubballi",
+      "targets": [
+        ["linkText=Bengaluru - Hubballi", "linkText"],
+        ["css=.active li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467467616730', 'Bengaluru', '1467465602487', 'Hubballi');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bengaluru - Hubballi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd917005-7757-406d-b344-bc821367d72d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0da16d7-7fe4-417a-8b9b-b20af9518fb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > td:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[6]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[6]", "xpath:position"],
+        ["xpath=//td[contains(.,'29')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "121745e0-3e10-44bf-af4b-5b18bedffc88",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbb5c483-ddec-4db7-89bd-21656c411804",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=30",
+      "targets": [
+        ["linkText=30", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'30')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'30')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb0b55f6-ba7f-45da-99fd-8b0146df40df",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Bengaluru"
+    }, {
+      "id": "b13fd756-417e-440e-9c43-b16bebf001b2",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": "Hubballi"
+    }, {
+      "id": "aa9a3101-cbe2-43f3-9c25-0e054a653f34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control-label",
+      "targets": [
+        ["css=.custom-control-label", "css:finder"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Single Lady')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cce42fe2-33df-46ac-9744-dd29c7e9e498",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aee22f8c-ff20-47e2-b55b-77072c23354d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(6) p",
+      "targets": [
+        ["css=li:nth-child(6) p", "css:finder"],
+        ["xpath=//li[6]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'App Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc212099-0a4a-4d72-a7dc-8f2e43abc9bc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(6) p",
+      "targets": [
+        ["css=li:nth-child(6) p", "css:finder"],
+        ["xpath=//li[6]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'App Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6419449b-6ecc-42b8-b61a-70eface24d7f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "85ea3457-6a88-4bf9-a8f3-7a1bc5ecb2d5",
+    "name": "test5",
+    "commands": [{
+      "id": "ef5e5e62-55bb-4d7e-9190-0b6c37b62b8c",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksrtc.in/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efc1cb0f-209d-49b0-a2bf-ccda5dbc9ccf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "808d328b-47bd-4c94-8f16-c83932e9e16d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,276.6666564941406)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9dc56de-7133-4310-83cd-ec638ba92884",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bengaluru - Karwar",
+      "targets": [
+        ["linkText=Bengaluru - Karwar", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467467616730', 'Bengaluru', '1467488477248', 'Karwar');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div/div/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[12]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bengaluru - Karwar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d82ec8-e64d-4258-b76c-05ecf959fff5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Bengaluru - Karwar",
+      "targets": [
+        ["linkText=Bengaluru - Karwar", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467467616730', 'Bengaluru', '1467488477248', 'Karwar');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div/div/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[12]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bengaluru - Karwar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a76094d-4076-4892-b932-0143c907efe2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Bengaluru - Karwar",
+      "targets": [
+        ["linkText=Bengaluru - Karwar", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467467616730', 'Bengaluru', '1467488477248', 'Karwar');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div/div/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[12]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bengaluru - Karwar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5944d28-c94a-4be6-86bc-4a54e85af041",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=27",
+      "targets": [
+        ["linkText=27", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'27')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[32]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'27')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9a33729-7530-4b51-b4e8-db374a67de04",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de56a4df-3bb3-4a9c-a068-f6c2a72a5b57",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=28",
+      "targets": [
+        ["linkText=28", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'28')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'28')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7938111-01de-4e16-ac6e-5c88d832d2f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control-label",
+      "targets": [
+        ["css=.custom-control-label", "css:finder"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Single Lady')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cdb38e9-ded6-499c-a437-cd95dc67243f",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Bengaluru"
+    }, {
+      "id": "7bf6e99a-a396-41b9-9ab7-495c76bd60f3",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": "Karwar"
+    }, {
+      "id": "0d471ce2-4d0c-43a5-b4af-5ccddd8a27c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "632e87bc-d762-46e7-8630-f76a1cf2d3c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Kannada",
+      "targets": [
+        ["linkText=Kannada", "linkText"],
+        ["css=.fl-right1 > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kannada')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/oprs-web/guest/home.do?lange=kn')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kannada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9b03d811-d252-42ea-8cd4-7b80b4f60bd8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ksrtc.in/"],
+  "plugins": []
+}
